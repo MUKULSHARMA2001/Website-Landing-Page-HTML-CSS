@@ -1,0 +1,696 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+header .main-head {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    color: white;
+    background-color: black;
+    flex: 1;
+    justify-content: center;
+}
+
+header .main-head .left-logo {
+    margin: auto;
+    margin-left: 10rem;
+}
+
+header .main-head .right-navbar {
+    margin: auto;
+    margin-right: 10rem;
+}
+
+header .main-head .right-navbar ul li {
+    list-style: none;
+    display: inline;
+    padding-left: 3rem;
+
+}
+
+header .main-head .right-navbar ul li a {
+    text-decoration: none;
+    color: #848484;
+    font-weight: 700;
+}
+
+header .main-head .right-navbar ul li a:hover {
+    color: white;
+}
+
+.sec1 .trial-div1 {
+    background-image: url("../images/banner.jpg");
+    /* background-color: burlywood; */
+    max-width: 100%;
+    height: 690px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    flex: 50%;
+    padding: 10rem;
+    padding-top: 8rem;
+    justify-content: space-between;
+}
+
+.sec1 .trial-div1 .intro {
+    color: white;
+}
+
+.sec1 .trial-div1 .intro .line {
+    border-bottom: 2px solid white;
+    width: 12%;
+    margin-bottom: 3rem;
+}
+
+
+.sec1 .trial-div1 .intro .intro-p1 {
+    font-size: 40px;
+
+}
+
+.sec1 .trial-div1 .intro .intro-p2 {
+    font-size: 17px;
+    font-weight: 100;
+    padding-bottom: 1.5rem;
+}
+
+
+
+.sec1 .trial-div1 .intro .btn-download {
+
+    border-style: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    background-color: transparent;
+    border: 2px white solid;
+    color: white;
+    height: 2.5rem;
+    width: 8rem;
+}
+
+
+
+.sec1 .trial-div1 .intro .btn-download:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+
+}
+
+.sec1 .trial-div1 .trial-form {
+    background-color: white;
+    text-align: center;
+    height: 90%;
+    width: 30%;
+    align-items: center;
+    border-radius: 4px;
+    margin-top: 4.5rem;
+    position: relative;
+}
+
+
+.sec1 .trial-div1 .trial-form .form-title {
+    background-color: rgb(228, 227, 227);
+    font-size: 1.5rem;
+    padding: 10px;
+    font-weight: 800;
+    border-radius: 4px;
+}
+
+
+.sec1 .trial-div1 .trial-form .form-title span {
+    color: #fd9750;
+}
+
+
+.sec1 .trial-div1 .trial-form .form-button {
+    background-color: #fd9750;
+    position: absolute;
+    bottom: 0;
+    padding: 1rem;
+    width: 100%;
+}
+
+
+.sec1 .trial-div1 .trial-form .form-button button {
+    border-style: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    background-color: transparent;
+    color: white;
+    font-size: 1rem;
+}
+
+
+.sec1 .trial-div1 .trial-form .form-content input {
+    display: block;
+    margin-top: 2.8rem;
+    margin-left: 2rem;
+    padding-bottom: 0.5rem;
+    border-style: none;
+    border-bottom: 1px solid rgb(228, 227, 227);
+    background-color: transparent;
+    width: 80%;
+}
+
+
+
+
+::placeholder {
+    font-size: 15px;
+    opacity: 0.6;
+    padding-left: 10px;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+/* --------------------------------------------------------.sec1-2------------------------------------------------------------- */
+
+.sec2 .head-socialmedia {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    flex: 50%;
+    justify-content: center;
+    box-shadow: 0px 1px 3px #888888;
+    position: absolute;
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+
+.sec2 .head-socialmedia .head-socialcontent {
+    margin: auto;
+    margin-left: 0;
+}
+
+
+
+.sec2 .head-socialmedia .head-socialicon {
+
+    margin: auto;
+    margin-right: 0;
+}
+
+.sec2 .head-socialmedia .head-socialicon i {
+    font-size: 3rem;
+    opacity: 0.3;
+    padding-left: 1rem;
+}
+
+
+.sec2 .head-socialmedia .head-socialcontent h2 {
+    font-size: 25px;
+    margin: 0;
+
+}
+
+
+.sec2 .head-socialmedia .head-socialcontent .social-p1 {
+    font-size: 15px;
+    opacity: 0.4;
+    margin: 0;
+    font-weight: 500;
+    padding-top: 5px;
+}
+
+.sec2 .content-social {
+    background-color: #f5f5f5;
+    display: flex;
+    flex: 50%;
+    max-width: 100%;
+    height: 700px;
+    padding: 5.5rem;
+    padding-top: 13rem;
+    justify-content: center;
+}
+
+.sec2 .content-social .content-img {
+
+    margin: auto;
+    margin-left: 7rem;
+
+}
+
+.sec2 .content-social .content-img p {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    opacity: 0.4;
+    font-weight: 500;
+}
+
+.sec2 .content-social .content-img button {
+    border-style: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    background-color: #ff8b38;
+    color: white;
+    border-radius: 2px;
+    padding: 10px;
+    margin-top: 25px;
+    width: 8rem;
+    font-size: 17px;
+}
+
+
+.sec2 .content-social .img-div {
+    margin: auto;
+    margin-right: 10rem;
+
+}
+
+
+
+.sec2 .div-sublist {
+    display: flex;
+    flex: 50%;
+    max-width: 100%;
+    height: 600px;
+    padding-left: 7rem;
+    padding-right: 7rem;
+    justify-content: center;
+}
+
+
+.sec2 .div-sublist .img-sublist {
+    margin: auto;
+    margin-left: 0;
+
+}
+
+
+.sec2 .div-sublist .img-sublist img {
+    box-shadow: 5px 5px 20px #888888;
+
+}
+
+
+
+
+.sec2 .div-sublist .content-sublist {
+    margin: auto;
+    margin-right: 0;
+
+}
+
+.sec2 .div-sublist .content-sublist .line2 {
+    border-bottom: 3px solid #fe8b37;
+    width: 16%;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+
+.sec2 .div-sublist .content-sublist .icon-title1 {
+    display: flex;
+    flex: 50%;
+}
+
+.sec2 .div-sublist .content-sublist .icon-title2 {
+    display: flex;
+    flex: 50%;
+}
+
+.sec2 .div-sublist .content-sublist .icon-title1 .icon-content1 {
+    padding-left: 2rem;
+}
+
+.sec2 .div-sublist .content-sublist .icon-title2 .icon-content2 {
+    padding-left: 2rem;
+}
+
+.sec2 .div-sublist .content-sublist h2 {
+    margin: 0;
+}
+
+
+
+.sec2 .div-sublist .content-sublist .icon-title1 h4 {
+    margin: 0;
+}
+
+.sec2 .div-sublist .content-sublist .icon-title2 h4 {
+    margin: 0;
+}
+
+
+.sec2 .div-sublist .content-sublist .icon-title1 .up-icon i {
+    padding-top: 9px;
+    color: #fe8b37;
+    font-size: 17px;
+}
+
+.sec2 .div-sublist .content-sublist .icon-title2 .down-icon i {
+    padding-top: 9px;
+    color: #fe8b37;
+    font-size: 17px;
+}
+
+.sec2 .div-sublist .content-sublist .icon-title1 .up-icon {
+    border: 3px solid #fe8b37;
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    text-align: center;
+}
+
+
+
+.sec2 .div-sublist .content-sublist .icon-title2 .down-icon {
+    border: 3px solid #fe8b37;
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    text-align: center;
+}
+
+
+.sec2 .div-sublist .content-sublist p {
+    opacity: 0.4;
+    font-weight: 500;
+    margin-bottom: 3rem;
+}
+
+.sec2 .div-sublist .content-sublist .p1 {
+    margin: 0;
+    margin-bottom: 3rem;
+}
+
+
+/* --------------------------------------------------------.sec3------------------------------------------------------------- */
+
+
+.sec3 .sublist2 {
+    background-color: #f5f5f5;
+    display: flex;
+    flex: 50%;
+    max-width: 100%;
+    height: 525px;
+    padding: 10rem;
+    padding-top: 6rem;
+    justify-content: center;
+
+}
+
+
+.sec3 .sublist2 .img-div-sublist2 {
+    margin: auto;
+    margin-right: 0;
+
+}
+
+.sec3 .sublist2 .img-div-sublist2 img {
+    box-shadow: 5px 5px 40px #888888;
+
+}
+
+
+
+
+.sec3 .sublist2 .content-div-sublist2 {
+
+    margin: auto;
+    margin-left: 0;
+    margin-top: 0.5rem;
+}
+
+
+.sec3 .sublist2 .content-div-sublist2 p {
+    opacity: 0.4;
+    font-weight: 500;
+}
+
+
+
+.sec3 .sublist2 .line3 {
+    border-bottom: 3px solid #fe8b37;
+    width: 14%;
+    margin-bottom: 3rem;
+}
+
+
+
+
+
+.sec3 .sublist3 {
+    text-align: center;
+    width: 100%;
+    height: 575px;
+    padding: 4rem;
+
+}
+
+.sec3 .sublist3 .container1 {
+    display: flex;
+    flex: 33.3%;
+    justify-content: center;
+}
+
+.sec3 .sublist3 .container1 .one,
+.two,
+.three {
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
+}
+
+.sec3 .sublist3 .container1 .one .circle {
+    padding-top: 1rem;
+    border: 3px solid #fe8b37;
+    border-radius: 100px;
+    height: 75px;
+    width: 75px;
+    margin: 0 auto;
+    color: #fe8b37;
+    font-size: 2rem;
+}
+
+
+.sec3 .sublist3 .container1 .two .circle {
+    padding-top: 1rem;
+    border: 3px solid #fe8b37;
+    border-radius: 100px;
+    height: 75px;
+    width: 75px;
+    margin: 0 auto;
+    color: #fe8b37;
+    font-size: 2rem;
+}
+
+
+.sec3 .sublist3 .container1 .three .circle {
+    padding-top: 1rem;
+    border: 3px solid #fe8b37;
+    border-radius: 100px;
+    height: 75px;
+    width: 75px;
+    margin: 0 auto;
+    color: #fe8b37;
+    font-size: 2rem;
+}
+
+
+.sec3 .sublist3 .container1 p {
+    line-height: 20px;
+    font-size: 0.85rem;
+    opacity: 0.4;
+}
+
+.sec3 .sublist3 h1 {
+
+    font-weight: 400;
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+}
+
+.sec3 .sublist3 p {
+
+    opacity: 0.4;
+    font-size: 0.85rem;
+    padding-bottom: 5rem;
+    font-weight: 600;
+}
+
+.sec3 .sublist3 .awesome-head .line4 {
+    border-bottom: 3px solid #fe8b37;
+    max-width: 80px;
+    margin: 0 auto;
+    margin-bottom: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+.sec3 .stylish-axure-div {
+    background-image: url(../images/banner-call-to-action.jpg);
+    max-width: 100%;
+    height: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+    padding: 5rem;
+    ;
+}
+
+
+.sec3 .stylish-axure-div .btn-download {
+    border-style: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    background-color: transparent;
+    border: 2px white solid;
+    color: white;
+    height: 2.5rem;
+    width: 8rem;
+
+}
+
+
+.sec3 .stylish-axure-div h2 {
+    font-weight: 400;
+    font-size: 2.5rem;
+    margin: 0 auto;
+}
+
+
+.sec3 .stylish-axure-div p {
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    opacity: 0.5;
+}
+
+
+.sec3 .stylish-axure-div .line5 {
+    border-bottom: 2px solid #fff;
+    max-width: 80px;
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+
+.sec3 .contact-main {
+    text-align: center;
+    width: 100%;
+    height: 600px;
+    padding: 10rem;
+    padding-top: 4rem;
+    justify-content: center;
+}
+
+.sec3 .contact-main h1 {
+    font-weight: 400;
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+}
+
+.sec3 .contact-main p {
+    opacity: 0.4;
+    font-size: 0.85rem;
+    padding-bottom: 4rem;
+    font-weight: 600;
+}
+
+
+
+.sec3 .contact-main .line6 {
+    border-bottom: 3px solid #fe8b37;
+    max-width: 60px;
+    margin: 0 auto;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+
+.sec3 .contact-main .contact-form {
+    display: flex;
+    flex: 50%;
+    justify-content: center;
+
+}
+
+.sec3 .contact-main .contact-form .left-input {
+    width: 100%;
+    margin-right: 2.5rem;
+}
+
+.sec3 .contact-main .contact-form .right-input {
+    width: 100%;
+    margin-left: 2.5rem;
+}
+
+
+.sec3 .contact-main .contact-form .left-input input {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10%;
+    margin-bottom: 3rem;
+    display: block;
+    border-style: none;
+    border-bottom: 1px solid rgb(228, 227, 227);
+    background-color: transparent;
+
+}
+
+.sec3 .contact-main .contact-form .right-input textarea {
+    width: 100%;
+    border-style: none;
+    border-bottom: 1px solid rgb(228, 227, 227);
+    background-color: transparent;
+    resize: none;
+}
+
+.sec3 .contact-main .btn-send {
+    border-style: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    background-color: #ff8b38;
+    color: white;
+    border-radius: 2px;
+    padding: 10px;
+    width: 8rem;
+    font-size: 15px;
+}
+
+
+footer .footer-socialicon {
+    max-width: 100%;
+    height: 80px;
+    background-color: black;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+
+footer .footer-socialicon i {
+    padding-right: 1.5rem;
+    font-size: 25px;
+    opacity: 0.8;
+}
+
+footer .footer-socialicon p {
+    font-size: 12px;
+    opacity: 0.5;
+}

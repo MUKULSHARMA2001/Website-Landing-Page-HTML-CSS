@@ -1,0 +1,14 @@
+Create HTML as shown in the image landing-page.jpg.
+
+Use below fonts
+https://fonts.google.com/specimen/Raleway
+
+Points to be taken care
+---------------------------------------------------------------
+- Proper folder structure
+- Proper column structure
+- Meaningful class name
+- Avoid inline/internal CSS
+- Use font awesome icons
+
+Note: Put your task in one folder and submit the zip.
